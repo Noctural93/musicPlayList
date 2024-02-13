@@ -1,0 +1,52 @@
+.song-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.song-image {
+  width: 220px;
+  margin-right: 19px;
+}
+
+.song-details-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.song-genre {
+  color: #3b82f6;
+  margin-top: 4px;
+  font-size: 19px;
+}
+
+.song-duration-delete-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 18px;
+}
+
+.delete-icon {
+  color: #ffffff;
+  margin-left: 29px;
+}
